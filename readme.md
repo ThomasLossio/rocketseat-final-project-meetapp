@@ -54,7 +54,13 @@ Algumas explicações sobre algumas variáveis de ambiente:
 
 - "# Sentry": Crie sua conta no Sentry e gere um novo monitoramente de projeto, busque pelo DSN gerado e informe-o. É necessário para que os erros em produção possam ser enviados para uma plataforma que facilite o gerenciamento.
 
-Após tudo configurado, execute para inicialização do projeto:
+Antes de inicializar o projeto, é necessário criar o banco de dados, conforme configurado no .env e rodar o seguinte comando para criar as tabelas do projeto:
+
+```sh
+yarn sequelize db:migrate
+```
+
+Após tudo configurado, execute o seguinte comando para inicialização do projeto:
 
 ```sh
 yarn dev
