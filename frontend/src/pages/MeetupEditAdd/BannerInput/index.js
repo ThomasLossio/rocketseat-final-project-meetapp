@@ -8,7 +8,8 @@ import ChoosePicture from '../../../assets/selecionarimagem.png';
 
 export default function BannerInput() {
   const ref = useRef();
-  const { defaultValue, registerField, fieldName } = useField('user');
+  const { defaultValue, registerField } = useField('banner');
+  console.tron.log(defaultValue);
 
   const [file, setFile] = useState(defaultValue && defaultValue.id);
   const [preview, setPreview] = useState(defaultValue && defaultValue.url);
@@ -19,11 +20,9 @@ export default function BannerInput() {
       ref: ref.current,
       path: 'dataset.file',
     });
-  }, [ref, fieldName]); // eslint-disable-line
+  }, [ref]); // eslint-disable-line
 
   async function handleChange(e) {
-    console.tron.log(file);
-    console.tron.log(preview);
     const data = new FormData();
 
     data.append('file', e.target.files[0]);
