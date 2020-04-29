@@ -1,27 +1,50 @@
-# Projeto final RocketSeat - Meetapp
+<h1 align="center">
+ <img src="https://ik.imagekit.io/hq2gg4sqoa/logo__-77cGTsu.svg">
+</h1>
 
-## Meetapp
+## Web Preview
+<h1>
+  <img src="frontend/src/assets/meetapp_demo.gif">
+</h1>
 
-O meetapp funciona como uma gerenciador de meetups (eventos), onde sua funcionalidade está divida em duas partes, no projeto FrontEnd, o usuário poderá cadastrar seus próprios meetups, já no projeto Mobile, o usuário apenas poderá visualizar os meetups por dia e se inscrever/desinscrever dos meetups.
+## Mobile Preview
+<h1 align="center">
+  <img src="frontend/src/assets/meetapp_mobile_demo.gif">
+</h1>
+  
 
-### Tecnologias
+# Índice
+- [Sobre](#-sobre)
+- [Tecnologias](#-tecnologias)
+- [Tecnologias de desenvolvimento](#-tecnologias-de-desenvolvimento)
+- [Backend](#-backend)
+- [Frontend](#-frontend)
+- [Mobile](#-mobile)
+- [Repositórios Originais](#-repositorios-originais)
+
+## 📋 Sobre
+
+O **Meetapp** funciona como uma gerenciador de meetups (eventos), onde sua funcionalidade está divida em duas partes, no projeto FrontEnd, o usuário poderá cadastrar seus próprios meetups, já no projeto Mobile, o usuário apenas poderá visualizar os meetups por dia e se inscrever/desinscrever dos meetups. Projeto desenvolvido como desafio final do Curso da RocketSeat para certificação.
+
+---
+
+## 🚀 Tecnologias
 
 O projeto utiliza-se das seguintes tecnologias:
 
-- NodeJS versão 11.10.1;
-- Yarn 1.16.0;
+- NodeJS;
+- Yarn;
 - ExpressJS;
-- JWT;
-- Postgresql 11;
-- Docker;
-  - Redis (redis:alpine).
+- Postgresql;
+- Redis (redis:alpine).
 - ReactJS;
 - React Native;
 - Redux;
 - Redux-saga;
 - React hooks.
 
-### Tecnologias de desenvolvimento
+
+## 🚀 Tecnologias de desenvolvimento
 
 - Eslint;
 - Prettier;
@@ -30,7 +53,9 @@ O projeto utiliza-se das seguintes tecnologias:
 - Sentry;
 - Reactotron (Front e Mobile).
 
-#### Backend
+---
+
+## 👨‍💻 Backend
 
 Para execução do projeto no Backend, necessita-se da utilização do seguinte comando no terminal para instalação das dependências:
 
@@ -74,7 +99,9 @@ yarn queue
 
 É importante que o queue seja executado, pois o projeto virá a dar erro quando usar algo a rota direcionada às inscrições em meetups.
 
-#### Frontend
+---
+
+## 💻 Frontend
 
 Para execução do frontend é importante que o Backend já esteja iniciado, sendo assim, é necessário apenas a utilização do seguinte comando para instalar as dependências do projeto:
 
@@ -90,7 +117,9 @@ yarn start
 
 Aguarde uns instantes e a aplicação já estará rodando. Realize um cadastro de usuário e já poderá utilizar a aplicação.
 
-#### Mobile
+---
+
+## 📱 Mobile
 
 O projeto em Mobile foi testado apenas na plataforma **Android**, sendo assim é necessário que você possua um emulador como genymotion ou um celular android que possa ser emulado via USB.
 
@@ -144,10 +173,15 @@ Pronto, agora basta deixar o emulador ligado/conectado e executar o seguinte com
 react-native run-android
 ```
 
-## Repositórios Originais
+---
+
+## 📁 Repositórios Originais
 
 Para conferência dos histórico de commits, basta clicar em algumas das opções abaixo para poder ir pro repositório original de cada.
 
 - [Backend](https://github.com/ThomasNeo/meetapp-backend)
 - [Frontend](https://github.com/ThomasNeo/meetapp-reactjs)
 - [Mobile](https://github.com/ThomasNeo/meetupNative)
+
+---
+Desenvolvido 🙃 por Thomas Lossio.
