@@ -3,7 +3,7 @@
 </h1>
 
 ## Web Preview
-<h1>
+<h1 align="center">
   <img src="frontend/src/assets/meetapp_demo.gif">
 </h1>
 
