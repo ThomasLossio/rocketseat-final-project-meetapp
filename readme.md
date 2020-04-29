@@ -20,7 +20,7 @@
 - [Backend](#-backend)
 - [Frontend](#-frontend)
 - [Mobile](#-mobile)
-- [Repositórios Originais](#-repositorios-originais)
+- [Repositórios Originais](#-repositórios-originais)
 
 ## 📋 Sobre
 
