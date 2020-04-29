@@ -16,7 +16,6 @@
 # Índice
 - [Sobre](#-sobre)
 - [Tecnologias](#-tecnologias)
-- [Tecnologias de desenvolvimento](#-tecnologias-de-desenvolvimento)
 - [Backend](#-backend)
 - [Frontend](#-frontend)
 - [Mobile](#-mobile)
@@ -36,22 +35,19 @@ O projeto utiliza-se das seguintes tecnologias:
 - Yarn;
 - ExpressJS;
 - Postgresql;
-- Redis (redis:alpine).
+- Docker:
+  - Redis (redis:alpine).
 - ReactJS;
 - React Native;
 - Redux;
 - Redux-saga;
-- React hooks.
-
-
-## 🚀 Tecnologias de desenvolvimento
-
+- React hooks;
 - Eslint;
 - Prettier;
 - EditorConfig;
 - Mailtrap;
 - Sentry;
-- Reactotron (Front e Mobile).
+- Reactotron.
 
 ---
 
